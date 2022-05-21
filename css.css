@@ -1,0 +1,78 @@
+body{
+    width: 80%;
+    margin: auto;
+    
+}
+.menu{
+    background: url(./imagens/topo.jpg);
+    height: 500px;
+}
+.menu nav li{
+    display: inline;
+    list-style: none;
+    padding: 10px;
+}
+.menu nav ul{
+    text-align: right;
+
+}
+.menu nav a{
+    padding: 10px;
+    color:wheat;
+    text-decoration: none;
+    letter-spacing: 1px;
+    transition: color 0.3s linear;
+}
+.menu nav a:hover{
+    color:white;
+}
+nav{
+    background-color: rgb(0,0,0,0.5);
+     height: 35px;
+     background-image:url(./imagens/logo.png);
+     background-repeat: no-repeat;
+     
+}
+.meio{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.meio p{
+    letter-spacing: 1px;
+    text-align: justify;
+}
+.meio-top{
+    display: inline-block;
+    padding: 50px;
+}
+.meio-top, h1, p{
+    text-align: center;
+}
+.fim{
+    background-image: url(./imagens/bg_detalhe.png);
+    background-position: right bottom;
+    color:white;    
+    padding: 100px;
+}
+.fim h1{
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: normal;
+}
+.fim p{
+    line-height: 1.5;
+    width: 70%;
+}
+.mapa{
+    margin-top: 50px;
+}
+h3{
+    text-align: center;
+}
+.rodape{
+    background-color: black;
+    padding: 5px;
+    color: white;
+    margin-top: 10px;
+}
